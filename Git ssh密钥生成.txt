@@ -1,0 +1,4 @@
+下载 Git-Bash
+生成密钥对ssh-keygen -t rsa -C "你的邮箱"
+生成之后用 notepad c:/User/Administrator/.ssh/id_rsa.pub 打开文件，然后将公钥添加的Gitlab中.
+测试 ssh -T git@"你的gitlab服务器地址"

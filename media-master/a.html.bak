@@ -1,0 +1,22 @@
+<head>
+	<meta charset="utf-8">
+  
+  <title>供应商系统</title>
+  <script type="text/javascript" src="jquery-1.8.3.min.js"></script>  
+	<script type="text/javascript" src="jquery.media.js"></script>
+	<script type="text/javascript">  
+    $(function() {  
+        $('.pdf').media({width:450, height:350});
+    });  
+    $('.btn').click(function(){
+      $(".pdf").show();
+    });
+	</script>
+
+
+</head>
+<body >
+	<button class="btn" >see</button> 
+  <div ><a class="pdf" href="a.pdf" display:none></a></div>
+</body>
+</html>
