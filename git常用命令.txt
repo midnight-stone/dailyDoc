@@ -59,12 +59,7 @@ $ git tag -a v0.1 -m "version 0.1 released" 3628164
 
 
 
-git remote add eos git@192.168.17.12:develop/ctg-facade-eos-system.git
-git remote add ctg-module git@192.168.17.9:develop/ctg-module.git
-git remote add service-user git@192.168.17.9:develop/ctg-service-user.git
-git remote add service-customer git@192.168.17.9:develop/ctg-service-customer.git
-git remote add ctg-facade-user git@192.168.17.9:develop/ctg-facade-user.git
-git remote add ctg-facade-customer git@192.168.17.9:develop/ctg-facade-customer.git
+git 远程仓库
 
-$ git remote add ctg-service-eos-system git@192.168.17.12:develop/ctg-service-eos-system.git
-
+git clone git@github.com:midnight-stone/dailyDoc.git        		获取远程仓库
+git remote add origin git@github.com:midnight-stone/dailyDoc.git	增加远程仓库
