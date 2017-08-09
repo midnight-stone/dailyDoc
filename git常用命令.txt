@@ -68,3 +68,16 @@ git remote 								获取远程库主机
 git remote rm								删除远程主机
 git clone -o jQuery https://github.com/jquery/jquery.git		克隆远程仓库代码并对远程主机命名
 git remote rename <原主机名> <新主机名>					远程主机重命名
+
+
+git branch --set-upstream dev origin/dev				指定本地dev分支与远程origin/dev分支的链接
+git fetch origin master							取回origin主机的master分支
+git branch -r								查看远程分支
+git branch -a								查看所有分支
+git checkout -b newBrach origin/master					取回远程主机的更新的基础上，使用git checkout命令创建一个新的分支
+git merge origin/master							在本地分支上合并远程分支
+
+
+Git diff branch1 branch2 --stat   					显示出所有有差异的文件列表
+Git diff branch1 branch2 文件名(带路径)   				显示指定文件的详细差异
+Git diff branch1 branch2                  				显示出所有有差异的文件的详细差异
