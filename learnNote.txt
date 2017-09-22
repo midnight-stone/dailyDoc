@@ -1,0 +1,8 @@
+maven+springMCV+Spring+Mybatis+eclipse（shiro+页面模板框架+log+事务+web拦截器、springMVC拦截器 ）
+maven+springMCV+Spring+Mybatis+idea
+
+webservice 
+支付宝微信接口、pc/手机端 
+maven 
+dubbo redis（nosql） 
+oracle方法、存储过程
